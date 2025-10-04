@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+ <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior:smooth;
+font-family:'jost',sans-serif;
+list-style:none;
+text-decoration:none;
+}
+body{background-color:rgb(247, 247, 245);}
+.logo img{
+max-width:120px;
+height:auto;
+}
+.navmenu{
+display:flex;
+}
+.navmenu a{
+color:#2c2c2c;
+font-size:16px;
+text-transform:capitalize;
+paddong:10px 20px;
+font-width:400;
+transition:all .42s ease;
+}
+.navmenu a:hover{
+color:red;}
+.nav-icon{
+display:flex;
+align-items:center;
+}
+.nav-icon i{
+margin-right:20px;
+font-size:25px;
+font-weight:400;
+transition:all .42s ease;
+}
+.nav-icon i:hover{
+transform:scale(1.1);
+color:red;
+}
+.navmenu a{
+color:#2c2c2c;
+font-size:16px;
+text-transform:capitalize;
+paddong:10px 20px;
+font-width:400;
+transition:all .42s ease;
+}
+.navmenu a:hover{
+color:red;}
+.nav-icon{
+display:flex;
+align-items:center;
+}
+.nav-icon i{
+margin-right:20px;
+font-size:25px;
+font-weight:400;
+transition:all .42s ease;
+}
+.nav-icon i:hover{
+transform:scale(1.1);
+color:red;
+}
+#y{position:relative;left:1300px;bottom:10px;top:10px;}
+#x{position:relative;left:300px;top:30px;}
+#x{padding-left:100px;}
+#y{padding-left:40px;}
+#l{position:relative;left:50px;top:30px;
+position:fixed;}
+.search-box input{width:700px;padding:10px;outline:none;border:0;
+border-redius:0px 5px 5px 0px;font-size:1rem; border:1px solid black;}
+.search-box button{padding:10px 20px;outline:none;border:0;
+border-radius:0px 5px 5px 0px;font-size:1rem;background:rgb(245,37,9);
+color:#fff;cursor:pointer;}
+
+#mm{position:relative;left:300px;}
+section{paddind:5% 10%}
+.main-home{
+width:100%;
+height:100vh;
+background-image:url("banner-3.png");
+background-position:center;
+background-size:cover;
+display:grid;
+grid-template-columns:repeat(1,1fr);
+align-items:center;
+}
+.main-text h5{
+color:#EE1C47;
+text-transform:capitalize;
+font-weight:500;
+}
+.main-text h1{
+color:#000;
+font-size:65px;
+text-transformation:capitalize;
+line-height:1.1;
+font-weight:600;
+margin:6px 0 10px;
+}
+.main-text p{
+color:#333c56;
+font-size:20px;
+font-style:italic;
+margin-bottom:20px;
+}
+.main-btn{
+display:inline-block;
+color:#111;
+font-size:16px;
+font-width:500;
+text-transform: capitalize;
+border:2px solid #111;
+padding:12px 25px;
+transition:all .42s ease;
+}
+.main-btn:hover{
+background-color:#000;
+color:white;
+}
+.main-btn i{
+vertical-align:middle;
+}
+.down-arrow{
+position:absolute;
+top:105%;
+right:11%;
+}
+.down i{
+font-size:30px;
+color:#2c2c2c;
+border:2px solid black;
+border-radius:50px;
+padding:12px 12px;
+}
+.down i:hover{
+background-color:black;
+color:white;
+transition: all .42s ease;
+}
+#bb{position:relative;left:50px;}
+a{font-size:25px;}
+
+
+</style>
+</head>
+<body>
+<header>
+<a href="#" id="l" class="logo"><img src="logo.png" alt=""></a>
+<ul class="navmenu" id="z">
+<li><a href="#"id="x" >Home</a></li>
+<li><a href="#"id="x">Shop</a></li>
+<li><a href="#"id="x">Products</a></li>
+<li><a href="#"id="x">Page</a></li>
+<li><a href="#"id="x">Contact Us</a></li>
+</ul>
+<div class="nav-icons"  >
+<a href="#"id="y"><i class='bx bx-search'></i></a>
+<a href="#"id="y"><i class='bx bx-user'></i></a>
+<a href="#"id="y"><i class='bx bx-cart'></i></a>
+</header>
+
+<section class="main-home">
+<div class="main-text" >
+<h5 id="bb">Cloths Collection</h5>
+<h1 id="bb">New Cloths <br> Collectionb 2024</h1>
+<p id="bb">Ther's Nothing like trend</p>
+
+<a href="#" class="main-btn" id="bb">Shop Now <i class='bx bx-right-arrow-alt'></i></a>
+</div>
+<div class="down-arrow">
+<a href="#trending" class="down"><i class='bx bx-down-arrow-alt'></i></a>
+</div> 
+</section>
+<br>
+<form action="#" class="search-box">
+<input type="text" placeholder="search recipe" id="mm">
+<button type="submit" id="mm">search</button>
+</form>
+</body>
+</html>

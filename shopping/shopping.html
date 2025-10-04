@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+ <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior:smooth;
+list-style:none;
+text-decoration:none;
+}
+header{
+width:1000%;
+top:0;
+right:0;
+z-index:1000;
+display:flex;
+align-items:center;
+padding:20px 10%;
+}
+.logo img{
+max-width:120px;
+height:auto;
+}
+.navmenu{
+display:flex;
+}
+.navmenu a{
+color:#2c2c2c;
+font-size:16px;
+text-transform:capitalize;
+paddong:10px 20px;
+font-width:400;
+transition:all .42s ease;
+}
+.navmenu a:hover{
+color:red;}
+.nav-icon{
+display:flex;
+align-items:center;
+}
+.nav-icon i{
+margin-right:20px;
+font-size:25px;
+font-weight:400;
+transition:all .42s ease;
+}
+.nav-icon i:hover{
+transform:scale(1.1);
+color:red;
+}
+#menu-icons{
+font-size:35px;
+color:#2c2c2c;
+z-index:10001;
+cursour:pointer;
+}
+</style>
+</head>
+<body>
+<header>
+<a href="#" class="logo"><img src="logoo.jpg" alt=""></a>
+<ul class="navmenu">
+<li><a href="#"id="y" >Home</a></li>
+<li><a href="#">Shop</a></li>
+<li><a href="#">Products</a></li>
+<li><a href="#">Page</a></li>
+<li><a href="#">Docs</a></li>
+</ul>
+<div class="nav-icons" >
+<a href="#" ><i class='bx bx-search'></i></a>
+<a href="#"><i class='bx bx-user'></i></a>
+<a href="#"><i class='bx bx-cart'></i></a>
+
+<div class="bx bx-menu id="menu-icons"></div>
+</div>
+</header>
+</body>
+</html>

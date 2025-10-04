@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+ <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior:smooth;
+font-family:'jost',sans-serif;
+list-style:none;
+text-decoration:none;
+}
+body{background-color:rgb(247, 247, 245);}
+.logo img{
+max-width:120px;
+height:auto;
+}
+.navmenu{
+display:flex;
+}
+.navmenu a{
+color:#2c2c2c;
+font-size:16px;
+text-transform:capitalize;
+paddong:10px 20px;
+font-width:400;
+transition:all .42s ease;
+}
+.navmenu a:hover{
+color:red;}
+.nav-icon{
+display:flex;
+align-items:center;
+}
+.nav-icon i{
+margin-right:20px;
+font-size:25px;
+font-weight:400;
+transition:all .42s ease;
+}
+.nav-icon i:hover{
+transform:scale(1.1);
+color:red;
+}
+.navmenu a{
+color:#2c2c2c;
+font-size:16px;
+text-transform:capitalize;
+paddong:10px 20px;
+font-width:400;
+transition:all .42s ease;
+}
+.navmenu a:hover{
+color:red;}
+.nav-icon{
+display:flex;
+align-items:center;
+}
+.nav-icon i{
+margin-right:20px;
+font-size:25px;
+font-weight:400;
+transition:all .42s ease;
+}
+.nav-icon i:hover{
+transform:scale(1.1);
+color:red;
+}
+#y{position:relative;left:1300px;bottom:10px;}
+#x{position:relative;left:300px;}
+#x{padding-left:100px;}
+#y{padding-left:40px;}
+#l{position:relative;left:50px;top:30px;}
+.search-box input{width:700px;padding:10px;outline:none;border:0;
+border-redius:0px 5px 5px 0px;font-size:1rem; border:1px solid black;}
+.search-box button{padding:10px 20px;outline:none;border:0;
+border-radius:0px 5px 5px 0px;font-size:1rem;background:rgb(245,37,9);
+color:#fff;cursor:pointer;}
+
+#mm{position:relative;left:300px;}
+section{
+paddind:5px  10px}
+.main-home{
+width:100%;
+height:100vh;
+background-image:url("banner-3.png");
+background-position:center;
+background-size:cover;
+display:grid;
+grid-template-columns:repeat(1,1fr);
+align-items:center;
+}
+.main-text h5{
+color:#EE1C47;
+text-transform:capitalize;
+font-weight:500;
+}
+.main-text h1{
+color:#000;
+font-size:65px;
+text-transformation:capitalize;
+line-height:1.1;
+font-weight:600;
+margin:6px 0 10px;
+}
+color:#333c56;
+font-size:20px;
+font-style:italic;
+margin-b.main-text p{
+ottom:20px;
+}
+.main-btn{
+display:inline-block;
+color:#111;
+font-size:16px;
+font-width:500;
+text-transform: capitalize;
+border:2px solid #111;
+padding:12px 25px;
+transition:all .42s ease;
+}
+.main-btn:hover{
+background-color:#000;
+color:white;
+}
+.main-btn i{
+vertical-align:middle;
+}
+.down-arrow{
+position:absolute;
+top:105%;
+right:11%;
+}
+.down i{
+font-size:30px;
+color:#2c2c2c;
+border:2px solid black;
+border-radius:50px;
+padding:12px 12px;
+}
+.down i:hover{
+background-color:black;
+color:white;
+transition: all .42s ease;
+}
+a{font-size:15px;}
+
+.cloths{padding:50px 0;}
+.cloths h1{
+text-align:center;margin-bottom:30px;font-size:28px;
+}
+.cloths-section{
+width:90%;
+margin:0 auto;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+column-gap:10px;
+}
+.cloths-card{background:#fff;margin:30px 10px;border-radius:10px;
+border:1px solid #ccc; over-flow:hidden;box-shadow:0 4px 8px rgba(0,0,0,0.1) }
+.cloths-card img{
+width:100%;height:350px;border-top-left-radius:10px;
+border-top-right-radius:10px;
+}
+.cloths-card h2{font-size:18px;padding:20px;}
+.cloths-card p{font-size:22px;padding:20px;}
+.cloths-card a{display:block;text-decoration:none;text-align:center;
+background:#333;color:#fff;padding:15px 0;cursor:pointer;}
+footer{
+background:#333;padding:20px 0;color:#fff;text-align:center;}
+#gg{text-align:center; font-size:50px;}
+
+
+@media(max-width:890px){
+header{
+padding:20px 3%;
+transition: .4s;
+}
+}
+@media(max-width:630px){
+.main-text:50px;
+transition: .4s;
+}
+.main-text p{
+font-size:18px;
+transition: .4s;}
+}
+@media(max-width:630px){
+.navmenu{
+position:absolute;
+top:100%;
+right:0;
+height:130vh;
+transition:all .42s}
+}
+#qwer{border:1px solid white;
+height:500px;
+width:1500px;
+background-image:url("save.webp");
+background-size:cover;
+}
+#zzzz{font-size:90px;
+font-family:italic;
+position:relative;
+top:250px;
+}
+
+footer{
+background-color:gray;
+}
+.footercontainer{
+width:100%;
+padding:70px 30px 20px;
+}
+.socialicons{
+display:flex;
+justify-content:center;
+}
+.socialicons a{
+text-decoration:none;
+padding:10px;
+background-color:white;
+margin:10px;
+border-radius:50%;
+}
+.socialicons a i{
+font-size:2em;
+color:black;
+opacity:0.9;
+}
+.socialicons a:hover{
+background-color:black;
+transition:0.5;
+}
+.socialicons a:hover i{
+color:white;
+transition:0.5s;
+}
+.footernav{
+margin:30px 0;
+}
+.footernav ul{
+display:flex;
+justify-content:center;
+}
+.footernav ul li a{
+color:white;
+margin:20px;
+text-decoration:none;
+font-size:1.3em;
+opacity:0.7;
+transition:0.5;
+}
+.footernav ul li a:hover{
+opacity:1;
+}
+.footerbottom{
+background-color:#000;
+padding;20px;
+text-align:center;
+}
+.footerbottom p{
+color:white;
+}
+.designer{
+opacity:0.7;
+letter-spacing:1px;
+font-weight:400;
+margin:0px 5px;
+}
+.main-text{
+position:relative;
+left:100px;
+}
+</style>
+</head>
+<body>
+<header>
+<a href="#" id="l" class="logo"><img src="logo.png" alt=""></a>
+<ul class="navmenu" id="z">
+<li><a href="homeeee.html"id="x" >Home</a></li>
+<li><a href="shopppp.html"id="x">Shop</a></li>
+<li><a href="pro.html"id="x">Products</a></li>
+<li><a href="Demo.html"id="x">About us</a></li>
+<li><a href="contacus.html"id="x">Contact Us</a></li>
+</ul>
+<div class="nav-icons"  >
+<a href="#"id="y"><i class='bx bx-search'></i></a>
+<a href="#"id="y"><i class='bx bx-user'></i></a>
+<a href="cart.html"id="y"><i class='bx bx-cart'></i></a>
+</header>
+
+<section class="main-home">
+<div class="main-text" >
+<h5 >trending cloth</h5>
+<h1 >New Cloths <br> Collection 2024</h1>
+<p >Ther's Nothing like trend</p>
+<a href="#" class="main-btn">Shop Now <i class='bx bx-right-arrow-alt'></i></a>
+</div>
+<div class="down-arrow">
+<a href="#trending" class="down" ><i class='bx bx-down-arrow-alt'></i></a>
+</div> 
+</section>
+
+<section class="cloths">
+<h1 style="font-size:50px">Morden collection</h1>
+<div class="cloths-section">
+<div class="cloths-card">
+<img src="1.jpg"alt="">
+<h2>cloth</h2>
+<pre> VeBNoR
+ Printed Polo Neck Polyester Pink Shirt
+₹279-₹999 72% off
+Hot Deal
+Size S, M, L</Pre>
+<a herf="#">BUY NOW</a>
+</div>
+<div class="cloths-card">
+<img src="2.jpg"alt="">
+<h2>cloth</h2>
+<pre> VeBNoR
+ Printed Polo Neck Polyester Pink Shirt
+₹279-₹999 72% off
+Hot Deal
+Size S, M, L</Pre>
+<a herf="https://youtu.be/6Tme3rLiFzg?si=Sy0ss4YjkwFXzBtS">BUY NOW</a>
+</div>
+<div class="cloths-card">
+<img src="3.jpg"alt="">
+<h2>cloth</h2>
+<pre> VeBNoR
+ Printed Polo Neck Polyester Pink Shirt
+₹279-₹999 72% off
+Hot Deal
+Size S, M, L</Pre>
+<a herf="#">BUY NOW</a>
+</div>
+<div class="cloths-card">
+<img src="4.jpg"alt="">
+<h2>cloth</h2>
+<pre> VeBNoR
+ Printed Polo Neck Polyester Pink Shirt
+₹279-₹999 72% off
+Hot Deal
+Size S, M, L</Pre>
+<a herf="#">BUY NOW</a>
+</div>
+
+</div>
+</section>
+<br>
+</section class="cloths">
+<h1 style="font-size:30px";></h1>
+<div class="cloths-section">
+<div class="cloths-card">
+<img src="5.jpg"alt="">
+<h2>cloth</h2>
+<pre> VeBNoR
+ Printed Polo Neck Polyester Pink Shirt
+₹279-₹999 72% off
+Hot Deal
+Size S, M, L</Pre>
+<a herf="#">BUY NOW</a>
+</div>
+<div class="cloths-card">
+<img src="6.jpg"alt="">
+<h2>cloth</h2>
+<pre> VeBNoR
+ Printed Polo Neck Polyester Pink Shirt
+₹279-₹999 72% off
+Hot Deal
+Size S, M, L</Pre>
+<a herf="https://youtu.be/6Tme3rLiFzg?si=Sy0ss4YjkwFXzBtS">BUY NOW</a>
+</div>
+<div class="cloths-card">
+<img src="7.jpg"alt="">
+<h2>cloth</h2>
+<pre> VeBNoR
+ Printed Polo Neck Polyester Pink Shirt
+₹279-₹999 72% off
+Hot Deal
+Size S, M, L</Pre>
+<a herf="#">BUY NOW</a>
+</div>
+<div class="cloths-card">
+<img src="8.jpg"alt="">
+<h2>cloth</h2>
+<pre> VeBNoR
+ Printed Polo Neck Polyester Pink Shirt
+₹279-₹999 72% off
+Hot Deal
+Size S, M, L</Pre>
+
+<a herf="#">BUY NOW</a>
+</div>
+
+</div>
+</section>
+<br>
+<br>
+<h1 id="gg">LUXURY ITEMS</h1>
+<section class="cloths">
+<h1 style="font-size:30px";></h1>
+<div class="cloths-section">
+<div class="cloths-card">
+<img src="bl-1.png"alt="">
+<h2>cloth</h2>
+<pre> VeBNoR
+ Printed Polo Neck Polyester Pink Shirt
+₹279-₹999 72% off
+Hot Deal
+Size S, M, L</Pre>
+<a herf="#">BUY NOW</a>
+</div>
+<div class="cloths-card">
+<img src="bl-2.png"alt="">
+<h2>cloth</h2>
+<pre> VeBNoR
+ Printed Polo Neck Polyester Pink Shirt
+₹279-₹999 72% off
+Hot Deal
+Size S, M, L</Pre>
+<a herf="https://youtu.be/6Tme3rLiFzg?si=Sy0ss4YjkwFXzBtS">BUY NOW</a>
+</div>
+<div class="cloths-card">
+<img src="bl-3.png"alt="">
+<h2>cloth</h2>
+<pre> VeBNoR
+ Printed Polo Neck Polyester Pink Shirt
+₹279-₹999 72% off
+Hot Deal
+Size S, M, L</Pre>
+<a herf="#">BUY NOW</a>
+</div>
+<div class="cloths-card">
+<img src="2.jpg"alt="">
+<h2>colth</h2>
+<pre> VeBNoR
+ Printed Polo Neck Polyester Pink Shirt
+₹279-₹999 72% off
+Hot Deal
+Size S, M, L</Pre>
+<a herf="#">BUY NOW</a>
+</div>
+</div>
+</section>
+<br>
+
+<div id="qwer">
+<p id="zzzz">ORDER NOW !</p>
+</div>
+<br>
+<br>
+<footer>
+<div class="footercontainer">
+<div class="socialicons">
+<a href="#"><i class='bx bxl-facebook' ></i></a>
+<a href="#"><i class='bx bxl-instagram' ></i></a>
+<a href="#"><i class='bx bxl-twitter' ></i></a>
+<a href="#"><i class='bx bxl-google' ></i></a>
+<a href="#"><i class='bx bxl-youtube' ></i></a>
+</div>
+<div class="footernav">
+<ul>
+<li><a href="">Home</a></li>
+<li><a href="">Shop</a></li>
+<li><a href="">Product</a></li>
+<li><a href="">About  us</a></li>
+<li><a href="">Contact</a></li>
+</ul>
+</div>
+</div>
+<div class="footerbottom">
+<p>Copyright &copy;2024;Design by <span class="designer">SHEHBAZ SAMANEE</span></p>
+</div>
+
+</footer>
+
+</body>
+</html>
